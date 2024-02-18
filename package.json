@@ -1,0 +1,18 @@
+{
+  "name": "tema1_cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "florinfire80",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "nodemon": "^3.0.3",
+    "yargs": "^17.7.2"
+  }
+}
